@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 50px;
+}
+
+html {
+    font-size: 20px;
+}
+
+p {
+    border: 1px solid red;
+    margin-bottom: 5px;
+}
+
+.paragraph_1 {
+    width: 30%;
+}
+
+.paragraph_2 {
+    width: 50%;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+body>ul {
+    font-size: 24px;
+}
+
+li {
+    font-size: 0.5rem;
+}
+
+div {
+    border: 1px solid black;
+}
+
+/*    vw = viewpoint width 
+    vh = viewpoint height
+       width > heigth
+           vmin = heigth
+               vmax = width
+                   width < heigth
+                       vmin = width
+                           vmax = heigth*/
+.block_1 {
+    width: 50vmin;
+    height: 50vmax;
+}
+
+.block_2 {
+    width: 50%;
+}
+
+.block_3 {
+    width: 100%;
+}
+
+.box {
+    width: 500px;
+    height: 400px;
+    margin:  10px;
+    padding:  10px;
+}
+
+.box_2 {
+    border: 5px solid black;
+    /* width: 50%;
+    height: 400px; */
+    max-width: 1280px;
+    min-width: 400px;
+    height: 400px;
+    margin: 40px auto ;
+    padding:30px 5% ;
+    /* background-color: rgba(130, 251, 25, 0.1); */
+    /* background-color: rgb(130, 251, 25, 0.1); */
+    /* HEX : 0,1,2,3,4,5,6,7,A,B,C,D,E,F*/
+    background-color: #4cd137;
+    
+}
+
+.image_box {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.image_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1280px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.container img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
