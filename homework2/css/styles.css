@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(217, 217, 231);
+}
+
+
+h1 {
+    margin: 1px 10px 25px;
+
+}
+
+ol {
+    margin-left: 55px;
+    list-style: disc;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 30px 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table.kurs,
+.kurs td,
+.kurs th,
+.kurs tr {
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.kurs th {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.kurs td {
+    font-size: 25px;
+
+}
+
+.kurs table td:last-child {
+    text-align: left;
+}
+
+div {
+    background-color: white;
+    border: 0px;
+    width: 35%;
+    padding: 10px 0px 80px;
+    margin: 40px 20px;
+}
+
+img {
+    width: 80px;
+    margin: 2px;
+
+}
