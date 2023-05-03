@@ -17,7 +17,7 @@ h1 {
 ol {
     margin-left: 55px;
     list-style: disc;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h2 {
@@ -26,33 +26,30 @@ h2 {
     font-weight: bold;
 }
 
-table.kurs,
-.kurs td,
-.kurs th,
-.kurs tr {
+table, td, th, tr {
     border: 1px solid black;
     margin-left: 10px;
 }
 
-.kurs th {
+th {
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 
-.kurs td {
-    font-size: 25px;
+td {
+    font-size: 24px;
 
 }
 
-.kurs table td:last-child {
+table td:last-child {
     text-align: left;
 }
 
 div {
     background-color: white;
     border: 0px;
-    width: 35%;
+    width: 25%;
     padding: 10px 0px 80px;
     margin: 40px 20px;
 }
