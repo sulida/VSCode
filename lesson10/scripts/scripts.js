@@ -83,12 +83,53 @@ console.log("==============================================")
 // const num5  = prompt ("Введите второе число")
 // console.log(`Сумма = ${+num4 + +num5}`)
 
-console.log("=====================If else=========================")
+// console.log("=====================If else=========================")
 
-if (7 % 2 === 0){
-    console.log('is even')
+// if (7 % 2 === 0){
+//     console.log('is even')
+// } else {
+//     console.log('is odd')
+// }
+
+// console.log("==============================================")
+// const num1 = +prompt("1 number")
+// const num2 = +prompt("2 number")
+
+// if (num1 > num2) {
+//     console.log(num1)
+// } else {
+//     console.log(num2)
+// }
+
+console.log("==============================================")
+// Написать программу, которая считывает через prompt одно число и выводит одну из строк “число положительное”, “число отрицательное”, “число равно нулю
+
+// const num3 = +prompt("Enter a number")
+
+// if (num3 > 0) {
+//     console.log("The number is positive")
+// } else if (num3 < 0) {
+//     console.log("The number is negative")
+// } else if (num3 === 0){
+//     console.log("The number is 0")
+// } else {
+//     console.log("Not a number")
+// }
+
+console.log("==============================================")
+// Написать программу, которая считывает значение из prompt и выводит фраз “Это значение можно преобразовать в число” или “Это значение преобразовать в число не получится. Получится NaN”
+
+const text = prompt("Enter value")
+
+if (isNaN(text)) {
+    console.log("This is not a number")
+
 } else {
-    console.log('is odd')
+    
+    console.log("The value could be a number")
 }
+
+
+
 
 
