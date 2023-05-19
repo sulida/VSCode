@@ -1,0 +1,11 @@
+div {
+    display: flex;
+    
+}
+
+.users_container div{
+
+margin: 10px;
+border: 1px solid black;
+padding: 7px;
+}
